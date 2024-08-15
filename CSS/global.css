@@ -81,6 +81,9 @@ p{
     width: 50%;
 }
 
+.subHeadLnk:hover{
+    color: #ffbf00;
+}
 
 .btn:hover{
 
