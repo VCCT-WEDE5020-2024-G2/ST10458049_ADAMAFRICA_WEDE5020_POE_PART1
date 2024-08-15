@@ -21,11 +21,10 @@ class Header extends HTMLElement {
                     <div class="dropdownServ">
                         <a href="services.html">SERVICES</a>
                         <div class="servOptions">
-                            <button onclick="setPage(0)" class="servIndie servType">INDEPENDENT LIVING</button>
-                            <button onclick="setPage(1)" class="servAssist servType">ASSISTED LIVING</button>
+                            <button onclick="redirectRule(0)" class="servIndie servType">INDEPENDENT LIVING</button>
+                            <button onclick="redirectRule(1)" class="servAssist servType">ASSISTED LIVING</button>
                         </div>
                     </div>
-                    <a href="news.html">NEWS</a>
                     <a href="contact.html">CONTACT US</a>
                 </div>
             </header>
@@ -52,11 +51,6 @@ class Footer extends HTMLElement {
                         <div class="servSec footSections">
                             
                             <a href="index.html">SERVICES</a>
-                        
-                        </div>
-                        <div class="newsSec footSections">
-                            
-                            <a href="index.html">NEWS</a>
                         
                         </div>
                         <div class="contactSec footSections">
