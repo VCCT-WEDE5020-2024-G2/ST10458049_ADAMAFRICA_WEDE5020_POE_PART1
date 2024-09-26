@@ -7,6 +7,15 @@ header{
     background-color: #697565;
 }
 
+.navDef{
+    display: flex;
+    width: 50%; justify-content: space-evenly;
+}
+
+.navBtnCon{
+    display: none;
+}
+
 a{
     color: white;
     text-decoration: none;

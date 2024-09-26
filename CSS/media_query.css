@@ -1,0 +1,25 @@
+@media screen and (max-width: 933px){
+
+    .navDef{
+        display: none;
+    }
+
+    .navBtnCon{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        margin-right: 3%;
+    }
+    .conSec{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .cardContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}

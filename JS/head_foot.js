@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-            <header>
+            <header class="header">
 
                 <div class="logo">
                     <a href="index.html">
@@ -14,8 +14,11 @@ class Header extends HTMLElement {
                     </a>
                 </div>
 
-                <div class="nav" style="display: flex; width: 50%; justify-content: space-evenly;">
-                    
+                <div class="navBtnCon">
+                    <img src="/assets/icons/icons8-menu-bar-100.png" alt="" class="openNav" style="width: 10%;">
+                </div>
+
+                <div class="navDef">
                     <a href="index.html">HOME</a>
                     <a href="about.html">ABOUT US</a>
                     <div class="dropdownServ">
@@ -27,6 +30,7 @@ class Header extends HTMLElement {
                     </div>
                     <a href="contact.html">CONTACT US</a>
                 </div>
+
             </header>
 
         `;
@@ -45,12 +49,12 @@ class Footer extends HTMLElement {
                     <div style="display: flex; flex-direction: row; justify-content: space-evenly; width: 50%;">
                         <div class="aboutSec footSections">
                             
-                            <a href="index.html">ABOUT US</a>
+                            <a href="about.html">ABOUT US</a>
                         
                         </div>
                         <div class="servSec footSections">
                             
-                            <a href="index.html">SERVICES</a>
+                            <a href="services.html">SERVICES</a>
                         
                         </div>
                         <div class="contactSec footSections">
@@ -68,4 +72,4 @@ class Footer extends HTMLElement {
 }
 
 customElements.define('head-component', Header);
-customElements.define('foot-component', Footer)
+customElements.define('foot-component', Footer);
