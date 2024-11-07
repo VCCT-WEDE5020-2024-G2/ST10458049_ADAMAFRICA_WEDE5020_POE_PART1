@@ -9,7 +9,8 @@ header{
 
 .navDef{
     display: flex;
-    width: 50%; justify-content: space-evenly;
+    width: 50%; 
+    justify-content: space-evenly;
 }
 
 .navBtnCon{
