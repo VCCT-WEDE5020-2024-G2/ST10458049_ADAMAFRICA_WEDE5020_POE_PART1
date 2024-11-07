@@ -65,7 +65,6 @@ class Footer extends HTMLElement {
                     </div>
 
                 </div>
-
                 <p class="cpFoot">Copywrite 2024 | ADRUSKA</p>
             </footer>`;
     }

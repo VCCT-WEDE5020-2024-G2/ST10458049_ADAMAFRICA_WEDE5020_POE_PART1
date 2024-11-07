@@ -119,3 +119,19 @@ p{
     background-color: #ECDFCC;
 
 }
+
+.dmBtnCon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Dark Mode Styling */
+
+.secLight.active{
+    color: #ECDFCC; 
+    background-color: #040134; 
+}

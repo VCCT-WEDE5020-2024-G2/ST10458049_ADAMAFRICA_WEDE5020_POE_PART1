@@ -1,4 +1,4 @@
-header{
+.header{
     padding: 1%;
     display: flex; 
     align-items: center; 
@@ -67,4 +67,9 @@ a:hover{
     color: #3C3D37;
     cursor: pointer;
 
+}
+
+/* Dark Mode Styling */
+header.active{
+    background-color: #040134;
 }
